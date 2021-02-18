@@ -1,0 +1,41 @@
+DESCR
+  Structural fingerprint setup for O in bulk TiO2.
+  Ref.: N. Artrith and A. Urban, Comp. Mater. Sci. (2016)
+END DESCR
+
+ATOM H
+
+ENV  2
+Pt
+H
+
+RMIN 0.2d0
+
+SYMMFUNC type=Behler2011
+26
+G=2 type2=Pt  eta=0.003214  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.035711  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.071421  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.124987  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.214264  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.357106  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=0.714213  Rs=0.0000  Rc=7.11228417138
+G=2 type2=Pt  eta=1.428426  Rs=0.0000  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= -1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= -1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= -1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= 1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= 1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= 1.0  zeta= 1.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= -1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= -1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= -1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= 1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= 1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= 1.0  zeta= 2.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= -1.0  zeta= 4.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= -1.0  zeta= 4.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= -1.0  zeta= 4.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.000357 lambda= 1.0  zeta= 4.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.028569 lambda= 1.0  zeta= 4.0  Rc=7.11228417138
+G=4 type2=Pt type3=Pt   eta=0.089277 lambda= 1.0  zeta= 4.0  Rc=7.11228417138

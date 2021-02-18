@@ -1,0 +1,16 @@
+TRAININGSET Pt_nw.train
+TESTPERCENT  20
+ITERATIONS  4000
+MAXENERGY 1.0
+SAVE_ENERGIES
+
+TIMING
+
+METHOD
+bfgs
+
+NETWORKS
+! atom   network        hidden
+! types  file-name      layers  nodes:activation
+  Pt       Pt.13tw-13tw-13tw.ann    3    13:twist 13:twist 13:twist
+  H       H.10tw-10tw.ann     2    10:twist 10:twist
