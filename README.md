@@ -1,5 +1,5 @@
 # JPtNW_Manuscript2021
-This repository contains supporting information for the submitted manuscript, "Auto-bifunctional Mechanism of Jagged Pt Nanowire for Hydrogen Evolution Reaction via Simulation"
+This repository contains supporting information for the submitted manuscript, "Auto-bifunctional Mechanism of Jagged Pt Nanowire for Hydrogen Evolution Reaction via end-to-end Simulation"
 
 ## Machine learning data set
 The DFT data set is in JPtNW_Manuscript2021/Training_Set/Data.json. It contains a list of converged structure and calculated H adsorption enregy. The Gibbs free energy temperature correction used is 0.226 eV.
